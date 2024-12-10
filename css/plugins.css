@@ -63781,6 +63781,7 @@ button.swiper-pagination-bullet {
 }
 
 .pswp--zoom-allowed .pswp__img {
+  object-fit:contain;
   /* autoprefixer: off */
   cursor: -webkit-zoom-in;
   cursor: -moz-zoom-in;
