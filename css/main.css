@@ -359,6 +359,7 @@ section {
 }
 
 a {
+  font-size: 1em;
   text-decoration: none;
   outline: 0;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -3555,6 +3556,7 @@ form textarea:required:valid {
 }
 
 .gallery__image {
+  height: 380px;
   opacity: 0;
 }
 
