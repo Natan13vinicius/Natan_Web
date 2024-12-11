@@ -1,380 +1,1455 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="pt-br" dir="ltr">
 
-  <head>
-    <meta charset="UTF-8">
+<head>
+  <meta charset="UTF-8">
 
-    <!-- Page Title -->
-    <title>Braxton - Personal Portfolio & Resume HTML Template</title>
+  <!-- Page Title -->
+  <title>Vinicius Natan / NGS Solutions</title>
 
-    <!-- Meta Tags -->
-    <meta name="description" content="Show yourself brightly with Braxton - unique and creative portfolio and resume template!">
-    <meta name="keywords" content="mix_design, resume, portfolio, personal page, cv, template, one page, responsive, html5, css3, creative, clean">
-    <meta name="author" content="mix_design">
+  <!-- Meta Tags -->
+  <meta name="description" content="Vinicius Natan / Ngs Solutions">
+  <meta name="keywords" content="Vinicius natan">
 
-    <!-- Viewport Meta-->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- Viewport Meta-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <!-- Template Favicon & Icons Start -->
-    <link rel="icon" href="img/favicon/favicon.ico" sizes="any">
-    <link rel="icon" href="img/favicon/icon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-    <link rel="manifest" href="img/favicon/manifest.webmanifest">
-    <!-- Template Favicon & Icons End -->
+  <!-- Template Favicon & Icons Start -->
+  <link rel="icon" href="img/favicon/favicon.ico" sizes="any">
+  <link rel="icon" href="img/favicon/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+  <link rel="manifest" href="img/favicon/manifest.webmanifest">
+  <!-- Template Favicon & Icons End -->
 
-    <!-- Facebook Metadata Start -->
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:title" content="Braxton - Personal Portfolio & Resume HTML Template">
-    <meta property="og:description" content="Show yourself brightly with Braxton - unique and creative portfolio and resume template!">
-    <meta property="og:url" content="https://mixdesign.club/themeforest/braxton">
-    <meta property="og:image" content="https://mixdesign.club/themeforest/braxton/img/favicon/og-image.jpg">
-    <!-- Facebook Metadata End -->
+  <!-- Facebook Metadata Start -->
+  <meta property="og:image:height" content="1200">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:title" content="Braxton - Personal Portfolio & Resume HTML Template">
+  <meta property="og:description"
+    content="Show yourself brightly with Braxton - unique and creative portfolio and resume template!">
+  <meta property="og:url" content="https://mixdesign.club/themeforest/braxton">
+  <meta property="og:image" content="https://mixdesign.club/themeforest/braxton/img/favicon/og-image.jpg">
+  <!-- Facebook Metadata End -->
 
-    <!-- Template Styles Start -->
-    <link rel="stylesheet" type="text/css" href="css/plugins-demo.css">
-    <link rel="stylesheet" type="text/css" href="css/main-demo.css">
-    <!-- Template Styles End -->
+  <!-- Template Styles Start -->
+  <link rel="stylesheet" href="css/loaders/loader.css">
+  <link rel="stylesheet" type="text/css" href="css/plugins.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!-- Template Styles End -->
 
-    <!-- Custom Mobile Browser Color Start -->
-    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#dcdce7">
-    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111111">
-    <meta name="msapplication-navbutton-color" content="#111111">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <!-- Custom Mobile Browser Color End -->
-  </head>
+  <!-- Custom Browser Color Start -->
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#dcdce7">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111111">
+  <meta name="msapplication-navbutton-color" content="#111111">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- Custom Browser Color End -->
+</head>
 
-  <body class="demo">
+<body>
 
-    <!-- Loader Start -->
-    <div id="loaderDemo" class="demo__loader">
-      <div id="loaderContent" class="loader__content">
-        <div class="loader__shadow"></div>
-        <div class="loader__box"></div>
-      </div>
+  <!-- Loader Start -->
+  <div id="loader" class="loader">
+    <div id="loaderContent" class="loader__content">
+      <div class="loader__shadow"></div>
+      <div class="loader__box"></div>
     </div>
-    <!-- Loader End -->
+  </div>
+  <!-- Loader End -->
 
-    <!-- Image Background Layer Start -->
-    <div id="imageBackground" class="image-background" data-speed="0.4"></div>
-    <!-- Image Background Layer End -->
+  <!-- Header Start -->
+  <header id="header" class="header d-flex justify-content-between">
 
-    <!-- Top Controls (Button and Color Switcher) Start -->
-    <div class="demo__controls d-flex">
-      <button id="color-switcher" class="color-switcher btn mobile-horizontal btn-square btn-hover btn-hover-transparent" type="button" role="switch" aria-label="light/dark mode" aria-checked="true"></button>
-      <a class="btn mobile-horizontal btn-square-mobile btn-hover btn-hover-accent" href="#0" target="_blank"><!-- template link here -->
-        <span class="btn-caption">Purchase</span>
-        <i class="ph-bold ph-shopping-cart"></i>
+    <!-- Navigation Menu Start -->
+    <div class="header__navigation">
+      <nav id="menu" class="menu">
+        <ul class="menu__list d-flex justify-content-start">
+          <li class="menu__item">
+            <a class="menu__link btn" href="#home">
+              <span class="menu__caption">Home</span>
+              <i class="ph-bold ph-house-simple"></i>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link btn" href="#portfolio">
+              <span class="menu__caption">Portfolio</span>
+              <i class="ph-bold ph-squares-four"></i>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link btn" href="#about">
+              <span class="menu__caption">Sobre mim</span>
+              <i class="ph-bold ph-user"></i>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link btn" href="#resume">
+              <span class="menu__caption">Experiencia </span>
+              <i class="ph-bold ph-article"></i>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link btn" href="#contact">
+              <span class="menu__caption">Contato</span>
+              <i class="ph-bold ph-envelope"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Navigation Menu End -->
+
+    <!-- Header Controls Start -->
+    <div class="header__controls d-flex justify-content-end">
+      <button id="color-switcher" class="color-switcher header__switcher btn" type="button" role="switch"
+        aria-label="light/dark mode" aria-checked="true"></button>
+      <a id="notify-trigger" class="header__trigger btn"
+        href="https://wa.me/5511934916375?text=ol%C3%A1%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar.%20">
+        <span class="trigger__caption">Venha me conhecer</span>
+        <i class="ph-bold ph-chat-dots"></i>
       </a>
     </div>
-    <!-- Top Controls (Button and Color Switcher) End --> 
+    <!-- Header Controls End -->
 
-    <!-- Demo Content Start -->
-    <main class="demo__content">
+  </header>
+  <!-- Header End -->
 
-      <!-- Intro Start -->
-      <section class="demo__intro">
+  <!-- Gradient Background Start -->
+  <div class="gradient-background">
+    <div class="blur"></div>
+    <div class="blur"></div>
+    <div class="blur"></div>
+  </div>
+  <!-- Gradient Background End -->
 
-        <div class="intro__header">
-          <div class="header__container">
-            <div class="container-fluid p-0">
-              <div class="row g-0">
-                <div class="col-12">
-                  <div class="header__logo">
-                    <a class="d-flex justify-content-start align-items-center" href="#0" target="_blank"><!-- template link here -->
-                      <div class="logo__image">
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                          width="85px" height="85px" viewBox="0 0 85 85" 
-                          style="enable-background:new 0 0 85 85;" xml:space="preserve" class="gradient-fill">
-                          <style type="text/css">
-                            .gradient-fill {
-                              fill: url(#gradientFill);
-                            }
-                          </style>
-                          <g>
-                            <linearGradient id="gradientFill" gradientUnits="userSpaceOnUse" x1="9.9604" y1="75.0338" x2="75.0387" y2="9.9555">
-                              <stop  offset="0" style="stop-color:var(--accent)"/>
-                              <stop  offset="1" style="stop-color:var(--secondary)"/>
-                            </linearGradient>
-                            <path class="gradient-fill" d="M51,0H34C15.2,0,0,15.2,0,34v17c0,14.3,8.9,26.6,21.4,31.6c0,0,0,0,0,0l0,0C25.3,84.1,29.5,85,34,85h17
-                              c6,0,11.7-1.6,16.6-4.3c0.1-0.1,0.2-0.1,0.3-0.2C78.1,74.6,85,63.6,85,51V34C85,15.2,69.8,0,51,0z M83,51c0,10.7-5.3,20.2-13.4,26
-                              v-2.5v-3.9h3.9v-3.9h-3.9v-3.9h3.9v-3.9h-3.9H67v-3.9V51h-3.9v3.9v3.9h2.6v3.9v3.9v3.9h-3.9h-3.9v3.9h3.9h3.9v3.9v1
-                              C61.3,81.7,56.3,83,51,83H34c-4.5,0-8.7-0.9-12.6-2.6v-2v-3.9h3.9h3.9v-3.9h-3.9h-3.9v-3.9v-3.9v-3.9H24v-3.9V51h-3.9v3.9v3.9h-2.6
-                              h-3.9v3.9h3.9v3.9h-3.9v3.9h3.9v3.9v3.9C8.2,72.8,2,62.6,2,51V34C2,16.4,16.4,2,34,2h17c17.6,0,32,14.4,32,32V51z M50.1,54.9H54
-                              v3.9v3.9h-3.9v-3.9V54.9z M33.1,54.9H37v3.9v3.9h-3.9v-3.9V54.9z M27.9,51H24v-3.9v-3.9v-3.9h3.9v3.9v3.9V51z M31.8,39.3h-3.9v-3.9
-                              h3.9V39.3z M31.8,43.2v-3.9h3.9v3.9H31.8z M63.1,47.1V51h-3.9v-3.9v-3.9v-3.9h3.9v3.9V47.1z M35.7,47.1v-3.9h3.9h3.9h3.9h3.9v3.9
-                              h-3.9h-3.9h-3.9H35.7z M59.2,39.3h-3.9v-3.9h3.9V39.3z M55.3,43.2h-3.9v-3.9h3.9V43.2z"/>
-                          </g>
-                        </svg>
-                      </div>
-                      <div class="logo__caption">
-                        <p>Braxton<br>Template</p>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+  <!-- Avatar Side Block Start -->
+  <div id="avatar" class="avatar">
+    <div class="avatar__container d-flex flex-column justify-content-lg-between">
+      <!-- image and logo -->
+      <div class="avatar__block">
+        <div class="avatar__logo d-flex align-items-center">
+          <div class="logo__image">
+            <!-- Your Logo Here!!! -->
+            <!--<img src="img/logo.svg" alt="Braxton - Personal Portfolio & Resume HTML Template Logo">-->
+            <img src="./img/perfil/badbrains-removebg-preview.png" alt="">
+          </div>
+          <div class="logo__caption">
+            <p>Vinicius Natan</p>
           </div>
         </div>
+        <div class="avatar__image">
+          <img src="./img/perfil/natan-img-pretoebranco.jpeg" alt="vinicius natan imagem de perfil">
 
-        <div class="intro__content">
-          <div class="headline">
-            <p class="headline__subtitle animate-headline">
-              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13" fill="currentColor">
-                <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+        </div>
+      </div>
+      <!-- data caption #1 -->
+      <div class="avatar__block">
+        <h6>
+
+          Desenvolvedor Web / Front end
+        </h6>
+      </div>
+
+      <!-- socials and CTA button -->
+      <div class="avatar__block">
+        <div class="avatar__socials">
+          <ul style="gap: 10px;" class="socials-square d-flex justify-content-center">
+            <li class="socials-square__item">
+              <a class="socials-square__link btn" href="https://github.com/Natan13vinicius" target="_blank"><i
+                  class="ph-bold ph-github-logo"></i></a>
+            </li>
+            <li class="socials-square__item">
+              <a class="socials-square__link btn" href="https://www.linkedin.com/in/vinicius-natan/" target="_blank"><i
+                  class="ph-bold ph-linkedin-logo"></i></a>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Avatar Side Block End -->
+
+  <!-- Page Content Start -->
+  <div id="content" class="content">
+    <div class="content__wrapper">
+
+      <!-- Intro Section Start -->
+      <section id="home" class="main intro">
+
+        <!-- Headline Start -->
+        <div id="headline" class="headline d-flex align-items-start flex-column" data-speed="1">
+          <p class="headline__subtitle animate-headline">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13"
+              fill="currentColor">
+              <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
                   C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
-                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z"/>
-              </svg>
-              <span>Meet Braxton!</span>
-            </p>
-            <h1 class="headline__title animate-headline">Clean and bright portfolio template</h1>
-            <div class="headline__btnholder d-flex flex-column flex-sm-row">
-              <a class="btn mobile-vertical btn-default btn-hover btn-hover-accent animate-headline" href="#live-preview">
-                <span class="btn-caption">View Demos</span>
-                <i class="ph-bold ph-squares-four"></i>
-              </a>
-              <a class="btn mobile-vertical btn-default btn-hover btn-hover-outline animate-headline" href="#0">
-                <span class="btn-caption">Buy Now</span>
-                <i class="ph-bold ph-basket"></i>
-              </a>
-            </div>
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z" />
+            </svg>
+            <span>NGS solutions</span>
+          </p>
+          <h1 class="headline__title animate-headline">Me chamo Vinicius Natan
+            <br>Desenvolvedor Web / Front
+          </h1>
+          <div class="headline__btnholder d-flex flex-column flex-sm-row">
+            <a class="btn mobile-vertical btn-default btn-hover btn-hover-accent-mobile animate-headline"
+              href="#portfolio">
+              <span class="btn-caption">Portfolio</span>
+              <i class="ph-bold ph-squares-four"></i>
+            </a>
+            <a class="btn mobile-vertical btn-default btn-hover btn-hover-outline-mobile animate-headline"
+              href="./pdf/Curriculo-10-2024.pdf" download="Curriculo-10-2024.pdf">
+              <span class="btn-caption">Download CV</span>
+              <i class="ph-bold ph-download-simple"></i>
+            </a>
           </div>
-          <div class="promo-image">
-            <img src="img/demo/mockup.webp" alt="Helio">
-          </div>
-        </div>
 
-        <div class="marquee">
-          <div class="marquee__inner">
-            <div class="marquee__part">
-              CV/Resume & Creative Portfolio
-              <div class="star">
-                <i class="ph-bold ph-star-four"></i>
-              </div>
-            </div>
-            <div class="marquee__part">
-              CV/Resume & Creative Portfolio
-              <div class="star">
-                <i class="ph-bold ph-star-four"></i>
-              </div>
-            </div>
-            <div class="marquee__part">
-              CV/Resume & Creative Portfolio
-              <div class="star">
-                <i class="ph-bold ph-star-four"></i>
-              </div>
-            </div>
-            <div class="marquee__part">
-              CV/Resume & Creative Portfolio
-              <div class="star">
-                <i class="ph-bold ph-star-four"></i>
-              </div>
-            </div>
-            <div class="marquee__part">
-              CV/Resume & Creative Portfolio
-              <div class="star">
-                <i class="ph-bold ph-star-four"></i>
-              </div>
-            </div>
-            <div class="marquee__part">
-              CV/Resume & Creative Portfolio
-              <div class="star">
-                <i class="ph-bold ph-star-four"></i>
-              </div>
-            </div>
-            <div class="marquee__part">
-              CV/Resume & Creative Portfolio
-              <div class="star">
-                <i class="ph-bold ph-star-four"></i>
-              </div>
-            </div>
-            <div class="marquee__part">
-              CV/Resume & Creative Portfolio
-              <div class="star">
-                <i class="ph-bold ph-star-four"></i>
-              </div>
-            </div>
-            <div class="marquee__part">
-              CV/Resume & Creative Portfolio
-              <div class="star">
-                <i class="ph-bold ph-star-four"></i>
-              </div>
-            </div>
-          </div>
+
         </div>
+        <!-- Headline End -->
+
+        <!-- Scroll Button Start -->
+        <div class="rotating-btn">
+          <a href="#portfolio" class="rotating-btn__link slide-down">
+            <!-- SVG rotating text -->
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+              y="0px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve"
+              class="animate-rotation" data-value="360">
+              <defs>
+                <path id="textPath"
+                  d="M110,59.5c0,27.6-22.4,50-50,50s-50-22.4-50-50s22.4-50,50-50S110,31.9,110,59.5z" />
+              </defs>
+              <g>
+                <use xlink:href="#textPath" fill="none"></use>
+                <text>
+                  <!-- button text here!!! -->
+                  <textPath xlink:href="#textPath">NGS* SOLUTIONS * </textPath>
+                </text>
+              </g>
+            </svg>
+            <!-- arrow icon -->
+            <i class="ph-bold ph-arrow-down"></i>
+          </a>
+        </div>
+        <!-- Scroll Button End -->
 
       </section>
-      <!-- Intro End -->
+      <!-- Intro Section End -->
 
-      <!-- Live Preview Links Start -->
-      <div id="live-preview" class="demo__preview">
-        <div class="preview__content">
+      <!-- About Section Start -->
+      <section id="about" class="inner about">
+
+        <!-- Content Block - H2 Section Title Start -->
+        <div class="content__block section-grid-title">
+          <p class="h2__subtitle animate-in-up">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13"
+              fill="currentColor">
+              <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z" />
+            </svg>
+            <span>About Me</span>
+          </p>
+          <h2 class="h2__title animate-in-up">Soluções Completas e Personalizadas</h2>
+          <SMALL>NGS SOLUTIONS</SMALL>
+        </div>
+        <!-- Content Block - H2 Section Title End -->
+
+        <!-- Content Block - Achievements Start -->
+        <div class="content__block grid-block">
+          <div class="achievements d-flex flex-column flex-md-row align-items-md-stretch">
+
+            <!-- achievements single item -->
+            <div class="achievements__item d-flex flex-column grid-item animate-card-3">
+              <div class="achievements__card">
+                <p class="achievements__number">2</p>
+                <p class="achievements__descr">Anos de Experiencia</p>
+              </div>
+            </div>
+            <!-- achievements single item -->
+            <div class="achievements__item d-flex flex-column grid-item animate-card-3">
+              <div class="achievements__card">
+                <p class="achievements__number">4</p>
+                <p class="achievements__descr">Projetos concluidos </p>
+                <p class="achievements__descr"><strong>Código e Wordpress</strong> </p>
+
+              </div>
+            </div>
+
+            <!-- achievements single item -->
+            <div class="achievements__item d-flex flex-column grid-item animate-card-3">
+              <div class="achievements__card">
+                <p class="achievements__number">+10</p>
+                <p class="achievements__descr">Sites em Greatpages </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Content Block - Achievements End -->
+
+        <!-- Content Block - About Me Data Start -->
+        <div class="content__block grid-block block-large">
           <div class="container-fluid p-0">
-            <div class="row g-0 align-items-stretch">
-              <!-- card single item -->
-              <div class="col-12 col-md-6 card animate-card-2">
-                <div class="card__inner">
-                  <a href="index-svg.html" class="card__link" target="_blank">
-                    <div class="card__image">
-                      <div class="image__container image-01">
-                        <img src="img/demo/screens/svg-dark.webp" alt="Preview">
-                      </div>
-                    </div>
-                    <div class="card__caption">
-                      <span class="btn btn-line btn-transparent slide-right">
-                        <span class="btn-caption">SVG Objects</span>
-                        <i class="ph-bold ph-arrow-right"></i>
-                      </span>
-                    </div>
+            <div class="row g-0 justify-content-between">
+
+              <!-- About Me Description Start -->
+              <div class="col-12 col-xl-8 grid-item about-descr">
+                <p class="about-descr__text animate-in-up">
+                  Sou desenvolvedor front-end com uma visão abrangente do processo de criação de websites e sistemas.
+                  Meu trabalho é focado em fornecer soluções elegantes e funcionais para a web, utilizando as melhores
+                  práticas de desenvolvimento. Meu trabalho é 100% 'mão na massa' estudo o problema e busco as soluções
+                  Além da criação de
+                  interfaces, também ofereço
+                  soluções para o back-end, incluindo a implementação de áreas de membros e integrações com
+                  banco de dados.
+                </p>
+                <p class="about-descr__text animate-in-up">
+                  Combinando o conhecimento em código e plataformas low-code, busco sempre entregar soluções completas,
+                  personalizadas e com alta performance, seja para projetos simples ou mais complexos. Se você busca um
+                  desenvolvedor comprometido, com ampla experiência, estou à
+                  disposição para ajudar.
+                </p>
+                <div class="btn-group about-descr__btnholder animate-in-up">
+                  <a class="btn mobile-vertical btn-default btn-hover btn-hover-accent"
+                    href="./pdf/Curriculo-10-2024.pdf" download="Curriculo-10-2024.pdf">
+                    <span class="btn-caption">Download CV</span>
+                    <i class="ph-bold ph-download-simple"></i>
                   </a>
                 </div>
               </div>
-              <!-- card single item -->
-              <div class="col-12 col-md-6 card animate-card-2">
-                <div class="card__inner">
-                  <a href="index-image.html" class="card__link" target="_blank">
-                    <div class="card__image">
-                      <div class="image__container image-02">
-                        <img src="img/demo/screens/image-dark.webp" alt="Preview">
-                      </div>
-                    </div>
-                    <div class="card__caption">
-                      <span class="btn btn-line btn-transparent slide-right">
-                        <span class="btn-caption">Parallax Image</span>
-                        <i class="ph-bold ph-arrow-right"></i>
-                      </span>
-                    </div>
-                  </a>
+              <!-- About Me Description End -->
+
+              <!-- About Me Information Start -->
+              <div class="col-12 col-xl-4 grid-item about-info">
+                <div class="about-info__item animate-in-up">
+                  <h6>
+                    <small class="top">Name</small>
+                    Vinicius natan
+                  </h6>
+                </div>
+                <div class="about-info__item animate-in-up">
+                  <h6>
+                    <small class="top">Telefone</small>
+                    <a class="text-link-bold"
+                      href="https://wa.me/5511934916375?text=ol%C3%A1%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar.%20">11
+                      9349-16375</a>
+                  </h6>
+                </div>
+                <div class="about-info__item animate-in-up">
+                  <h6>
+                    <small class="top">Email</small>
+                    <a class="text-link-bold"
+                      href="mailto:vinicius.natan.dev@gmail.com?subject=Message%20from%20your%20site">vinicius.natan.dev@gmail.com</a>
+                  </h6>
+                </div>
+                <div class="about-info__item animate-in-up">
+                  <h6>
+                    <small class="top">Localidade</small>
+                    <a class="text-link-bold" href="#">São Paulo</a>
+                  </h6>
                 </div>
               </div>
-              <!-- card single item -->
-              <div class="col-12 col-md-6 card animate-card-2">
-                <div class="card__inner">
-                  <a href="index-solid-color.html" class="card__link" target="_blank">
-                    <div class="card__image">
-                      <div class="image__container image-03">
-                        <img src="img/demo/screens/solid-color-dark.webp" alt="Preview">
-                      </div>
-                    </div>
-                    <div class="card__caption">
-                      <span class="btn btn-line btn-transparent slide-right">
-                        <span class="btn-caption">Solid Color</span>
-                        <i class="ph-bold ph-arrow-right"></i>
-                      </span>
-                    </div>
+              <!-- About Me Information End -->
+
+            </div>
+          </div>
+        </div>
+        <!-- Content Block - About Me Data End -->
+
+
+
+
+      </section>
+      <!-- About Section End -->
+
+      <!-- Resume Section Start -->
+      <section id="resume" class="inner resume">
+
+
+
+        <!-- Content Block - Education Start -->
+        <div class="content__block block-large">
+
+          <!-- H3 Block Start -->
+          <div class="section-h3">
+            <h3 class="h3__title animate-in-up">Formação</h3>
+          </div>
+          <!-- H3 Block End -->
+
+          <!-- Education Lines Start -->
+          <div class="container-fluid p-0 resume-lines">
+            <!-- education single item -->
+            <div class="row g-0 resume-lines__item animate-in-up">
+              <div class="col-12 col-md-2">
+                <span class="resume-lines__date animate-in-up">2023 - 2025</span>
+              </div>
+              <div class="col-12 col-md-5">
+                <h5 class="resume-lines__title animate-in-up">Profissão Engenheiro Front End</h5>
+                <p class="resume-lines__source animate-in-up">Curso por
+                  <a href="#0" class="text-link-bold" target="_blank">EBAC Escola britanica de artes criativas e
+                    tecnologia</a>
+                </p>
+              </div>
+              <div class="col-12 col-md-5">
+                <p class="small resume-lines__descr animate-in-up">Curso livre profissionalizante.</p>
+              </div>
+            </div>
+            <!-- education single item -->
+            <div class="row g-0 resume-lines__item animate-in-up">
+              <div class="col-12 col-md-2">
+                <span class="resume-lines__date animate-in-up">2023 - 2023</span>
+              </div>
+              <div class="col-12 col-md-5">
+                <h5 class="resume-lines__title animate-in-up">Introdução a Programação</h5>
+                <p class="resume-lines__source animate-in-up">Curso por
+                  <a href="#0" class="text-link-bold" target="_blank">EBAC Escola britanica de artes criativas e
+                    tecnologia
                   </a>
+                </p>
+              </div>
+              <div class="col-12 col-md-5">
+                <p class="small resume-lines__descr animate-in-up">Curso livre</p>
+              </div>
+            </div>
+            <!-- education single item -->
+            <div class="row g-0 resume-lines__item animate-in-up">
+              <div class="col-12 col-md-2">
+                <span class="resume-lines__date animate-in-up">2022</span>
+              </div>
+              <div class="col-12 col-md-5">
+                <h5 class="resume-lines__title animate-in-up">Fundamentos Front End: HTML, Css e Javascript</h5>
+                <p class="resume-lines__source animate-in-up"> Curso por
+                  <a href="#0" class="text-link-bold" target="_blank">Udemy</a>
+                </p>
+              </div>
+              <div class="col-12 col-md-5">
+                <p class="small resume-lines__descr animate-in-up">Curso livre</p>
+              </div>
+            </div>
+          </div>
+          <!-- Education Lines End -->
+
+        </div>
+        <!-- Content Block - Education End -->
+
+        <!-- Content Block - Experience Start -->
+        <div class="content__block block-large">
+
+          <!-- H3 Block Start -->
+          <div class="section-h3">
+            <h3 class="h3__title animate-in-up">Experiencia </h3>
+          </div>
+          <!-- H3 Block End -->
+
+          <!-- Experience Lines Start -->
+          <div class="container-fluid p-0 resume-lines">
+            <!-- experience single item -->
+            <div class="row g-0 resume-lines__item animate-in-up">
+              <div class="col-12 col-md-2">
+                <span class="resume-lines__date animate-in-up">2022 - Atual</span>
+              </div>
+              <div class="col-12 col-md-5">
+                <h5 class="resume-lines__title animate-in-up">Desenvolvedor Web / Front end Freelancer</h5>
+                <p class="resume-lines__source animate-in-up">
+                  <a href="#0" class="text-link-bold" target="_blank"> Weshare </a>
+                  Agencia de publicidade
+                </p>
+              </div>
+              <div class="col-12 col-md-5">
+                <p class="small resume-lines__descr animate-in-up">Desenvolvo, implemento e mantenho websites com foco
+                  em responsividade e design mobile first. versionamento de arquivos com GIT, garantindo um fluxo de
+                  trabalho eficiente e entregas de qualidade, além de código puro, também desenvolvo websites utilizando
+                  plataformas lowcode, como WordPress e Greatpages. </p>
+              </div>
+            </div>
+            <!-- experience single item -->
+            <div class="row g-0 resume-lines__item animate-in-up">
+              <div class="col-12 col-md-2">
+                <span class="resume-lines__date animate-in-up">2021 - Atual</span>
+              </div>
+              <div class="col-12 col-md-5">
+                <h5 class="resume-lines__title animate-in-up">Barbeiro</h5>
+                <p class="resume-lines__source animate-in-up">
+                  <a href="#0" class="text-link-bold" target="_blank">Barbearia Industrial</a>
+                  Barbearia
+                </p>
+              </div>
+              <div class="col-12 col-md-5">
+                <p class="small resume-lines__descr animate-in-up">Eu atuo como barbeiro e paralelamente
+                  desenvolvo soluções web.</p>
+              </div>
+            </div>
+
+
+          </div>
+          <!-- Content Block - Experience End -->
+
+          <!-- Content Block - H3 Block Start -->
+          <div class="content__block">
+            <div class="section-h3 section-h3-grid">
+              <h3 class="h3__title animate-in-up">Skills</h3>
+            </div>
+          </div>
+          <!-- Content Block - H3 Block End -->
+
+          <!-- Content Block - Tools List Start -->
+          <div class="content__block grid-block block-large">
+            <!-- Tools List Start -->
+            <div class="tools-cards d-flex justify-content-start flex-wrap">
+
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-html.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">HTML5</h6>
                 </div>
               </div>
-              <!-- card single item -->
-              <div class="col-12 col-md-6 card animate-card-2">
-                <div class="card__inner">
-                  <a href="index-gradient.html" class="card__link" target="_blank">
-                    <div class="card__image">
-                      <div class="image__container image-04">
-                        <img src="img/demo/screens/gradient-dark.webp" alt="Preview">
-                      </div>
-                    </div>
-                    <div class="card__caption">
-                      <span class="btn btn-line btn-transparent slide-right">
-                        <span class="btn-caption">Animated Gradients</span>
-                        <i class="ph-bold ph-arrow-right"></i>
-                      </span>
-                    </div>
-                  </a>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-css.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">CSS3</h6>
                 </div>
+              </div>
+
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/javascript-1.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">Javascript</h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/bootstrap-5-1.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">Bootstrap</h6>
+                </div>
+              </div>
+
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/jquery-4.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">Jquery</h6>
+                </div>
+              </div>
+
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/sass-1.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">Sass</h6>
+                </div>
+              </div>
+
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/gulp-1.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">Gulp</h6>
+                </div>
+              </div>
+
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/grunt-1.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">Grunt</h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/nodejs-1.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">NodeJs</h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/wordpress-icon-1.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">Wordpress</h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/git-icon.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">Git</h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/asana-logo.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">Asana</h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-notion.svg" alt="Tools Icon">
+                  <h6 class="tools-cards__caption animate-in-up">Notion</h6>
+                </div>
+              </div>
+            </div>
+            <!-- Tools List End -->
+
+          </div>
+          <!-- Tools List End -->
+        </div>
+        <!-- Content Block - Tools List End -->
+
+        <!-- Portfolio Section Start -->
+        <section id="portfolio" class="inner inner-first portfolio">
+
+          <!-- Content Block - H2 Section Title Start -->
+          <div class="content__block section-grid-title">
+            <p class="h2__subtitle animate-in-up">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13"
+                fill="currentColor">
+                <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+            C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+            C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z" />
+              </svg>
+              <span>Portfolio</span>
+            </p>
+            <h2 class="h2__title animate-in-up">Principais Projetos</h2>
+            <h3 class="h2__title animate-in-up">Clique em 'link de acesso' para visitar o projeto</h3>
+
+          </div>
+          <!-- Content Block - H2 Section Title End -->
+
+          <!-- Content Block - Works Gallery Start -->
+          <div class="content__block grid-block">
+            <div class="container-fluid px-0 inner__gallery">
+              <div class="row gx-0 my-gallery">
+
+                <!-- Works Gallery Single Item Start -->
+                <!-- IESSP -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
+                  itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="./img/projetos/1.png" data-image="./img/projetos/1.png" class="gallery__link"
+                    itemprop="contentUrl" data-size="100x100">
+                    <img src="./img/projetos/1.png" class="gallery__image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr" itemprop="caption description">
+                    <h5><a href="https://iessp.webpontobr.com.br/">Link De acesso</a></h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/wordpress-icon-1.svg"
+                        alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/css-3.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/javascript-1.svg" alt="Tools Icon">
+
+
+                    </div>
+                    <p class="small">Desenvolvi o site da IESSP usando WordPress e Elementor, focado em funcionalidade e
+                      modernidade.<br><br>
+                      Inclui uma área de membros com login e senha para acesso ao conteúdo EAD.<br>
+                      O cliente conta com um painel personalizado, criado com JetEngine, para atualizar datas de cursos,
+                      adicionar profissionais e gerenciar a galeria.<br><br>
+                      Além disso, o painel oferece um banco de dados para visualizar usuários cadastrados e associá-los
+                      aos cursos.<br><br>
+                      Tudo foi planejado para facilitar o gerenciamento e a experiência do usuário.
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Works Gallery Single Item End -->
+
+                <!-- Works Gallery Single Item Start -->
+
+                <!-- UMI -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
+                  itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="./img/projetos/2.png" data-image="./img/projetos/2.png" class="gallery__link"
+                    itemprop="contentUrl" data-size="1400x1400">
+                    <img src="./img/projetos/2.png" class="gallery__image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr opposite" itemprop="caption description">
+                    <h5><a href="https://www.umiurologia.com.br/">Link De acesso</a></h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/icon-html.png" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/css-3.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/javascript-1.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/bootstrap-5-1.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/git-icon.svg" alt="Tools Icon">
+
+
+                    </div>
+                    <p class="small">Desenvolvimento de website na área da saúde, com o objetivo de prospectar clientes
+                      e explicar sobre procedimentos médicos realizados pela instituição. Realizando o versionamento de
+                      arquivos Git, Html, Css, Bootstrap Javascript, Design responsivo, Seo, Deploy, Hospedagem e
+                      domínio.
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Works Gallery Single Item End -->
+
+                <!-- Works Gallery Single Item Start -->
+                <!-- CELIP -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
+                  itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="./img/projetos/3.png" data-image="./img/projetos/3.png" class="gallery__link"
+                    itemprop="contentUrl" data-size="1400x1400">
+                    <img src="./img/projetos/3.png" class="gallery__image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr opposite" itemprop="caption description">
+                    <h5><a href="https://blogcelip.com.br/">Link De acesso</a></h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/wordpress-icon-1.svg"
+                        alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/css-3.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/javascript-1.svg" alt="Tools Icon">
+
+                    </div>
+                    <p class="small">Desenvolvimento de um website voltado para a área da saúde, com o objetivo de
+                      divulgar informações e conteúdos relevantes do setor, incluindo um blog de notícias atualizado.
+                      <br><br> O
+                      site foi construído em WordPress, utilizando o plugin JetEngine para criar e gerenciar o blog de
+                      forma dinâmica, além de outros plugins que aprimoram a funcionalidade e a experiência do usuário.
+                      <br><br>
+                      O projeto seguiu boas práticas de design responsivo, SEO, deploy, hospedagem e configuração de
+                      domínio.
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Works Gallery Single Item End -->
+
+                <!-- Works Gallery Single Item Start -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
+                  itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="./img/projetos/intense-projeto.png" data-image="./img/projetos/intense-projeto.png"
+                    class="gallery__link" itemprop="contentUrl" data-size="1400x1400">
+                    <img src="./img/projetos/intense-projeto.png" class="gallery__image" itemprop="thumbnail"
+                      alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr " itemprop="caption description">
+                    <h5><a href="https://intense-oficial.vercel.app/">Link de acesso</a></h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/icon-html.png" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/css-3.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/javascript-1.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/git-icon.svg" alt="Tools Icon">
+
+                    </div>
+                    <p class="small">O Intense Oficial é um catálogo de produtos de bijuteria em uma loja online que
+                      visa facilitar a visualização dos produtos e, consequentemente, tornar mais fácil a captação de
+                      clientes. O site está atualmente disponível em uma plataforma de deploy, e os clientes podem
+                      acessá-lo através do link presente na rede social do Intense.
+
+                      O desenvolvimento do site foi feito com HTML, CSS e JavaScript <br> <br>
+                      Para gerenciamento de versão do código-fonte, foi utilizado o Git Flow, garantindo uma gestão mais
+                      organizada e eficiente do processo de desenvolvimento
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Works Gallery Single Item End -->
+
+              </div>
+            </div>
+          </div>
+          <!-- Content Block - Works Gallery End -->
+
+          <!-- SEGUNDO BLOCO -->
+          <!-- Content Block - H2 Section Title Start -->
+          <div class="content__block section-grid-title">
+            <p class="h2__subtitle animate-in-up">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13"
+                fill="currentColor">
+                <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+            C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+            C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z" />
+              </svg>
+              <span>Portfolio</span>
+            </p>
+            <h2 class="h2__title animate-in-up">Estudos (Código)</h2>
+            <h3 class="h2__title animate-in-up">Clique em 'link de acesso' para visitar o projeto</h3>
+
+          </div>
+          <!-- Content Block - H2 Section Title End -->
+
+          <!-- Content Block - Works Gallery Start -->
+          <div class="content__block grid-block">
+            <div class="container-fluid px-0 inner__gallery">
+              <div class="row gx-0 my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+                <!-- Works Gallery Single Item Start -->
+                <!-- DISNEY -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
+                  itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="./img/projetos/5.png" data-image="./img/projetos/5.png" class="gallery__link"
+                    itemprop="contentUrl" data-size="100x100">
+                    <img src="./img/projetos/5.png" class="gallery__image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr" itemprop="caption description">
+                    <h5><a href="https://disneyplus-clone-jewb.vercel.app/
+                      ">link de acesso</a></h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/icon-html.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/css-3.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/javascript-1.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/sass-1.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/gulp-1.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/nodejs-1.svg" alt="Tools Icon">
+
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/git-icon.svg" alt="Tools Icon">
+
+
+                    </div>
+                    <p class="small">
+
+                      Este projeto, desenvolvido através do curso da EBAC, é um clone da página do Disney+ utilizando
+                      HTML, CSS, JavaScript e Sass. O Node.js foi empregado para gerenciar as dependências, enquanto o
+                      Gulp foi utilizado para automatizar tarefas como a compilação do Sass, a minificação de imagens e
+                      a otimização do código da aplicação. <br><br>
+
+                      A estrutura das classes em HTML foi criada seguindo a metodologia BEM (Bloco, Elemento,
+                      Modificador), garantindo um código mais organizado e de fácil manutenção. Este projeto serviu como
+                      uma excelente prática para consolidar conhecimentos em desenvolvimento web moderno e automação de
+                      tarefas.
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Works Gallery Single Item End -->
+
+                <!-- Works Gallery Single Item Start -->
+                <!-- BUSCACEP -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
+                  itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="./img/projetos/BuscaCep.png" data-image="./img/projetos/BuscaCep.png" class="gallery__link"
+                    itemprop="contentUrl" data-size="100x100">
+                    <img src="./img/projetos/BuscaCep.png" class="gallery__image" itemprop="thumbnail"
+                      alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr" itemprop="caption description">
+                    <h5><a href="https://buscacep-api-fetch.vercel.app/">Link de acesso</a></h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/icon-html.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/css-3.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/javascript-1.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/bootstrap-5-1.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/nodejs-1.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/git-icon.svg" alt="Tools Icon">
+
+
+
+
+                    </div>
+                    <p class="small">O BuscaCEP é uma aplicação desenvolvida para consultar endereços a partir de um CEP
+                      informado pelo usuário, integrando-se a uma API para obter e exibir dados de forma dinâmica e
+                      precisa.<br>
+                      Utilizando tecnologias como HTML, CSS, Bootstrap, JavaScript com o método fetch e Node.js
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Works Gallery Single Item End -->
+
+                <!-- Works Gallery Single Item Start -->
+                <!-- FACILITE -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
+                  itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="./img/projetos/8.png" data-image="./img/projetos/8.png" class="gallery__link"
+                    itemprop="contentUrl" data-size="100x100">
+                    <img src="./img/projetos/8.png" class="gallery__image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr" itemprop="caption description">
+                    <h5><a href="https://buscacep-api-fetch.vercel.app/">link de acesso</a></h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/icon-html.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/css-3.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/javascript-1.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/bootstrap-5-1.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/git-icon.svg" alt="Tools Icon">
+
+
+                    </div>
+                    <p class="small">
+                      O Facilite é um protótipo desenvolvido como projeto de estudos para treinar habilidades técnicas,
+                      mas com potencial para se transformar em um produto comercial.<br><br>
+                      A ideia central é oferecer um formulário de contato personalizado para barbearias, permitindo que
+                      elas gerenciem uma lista de candidatos interessados em se juntar ao time.<br><br>
+                      O projeto foi construído utilizando HTML, CSS, JavaScript, Bootstrap e Git, destacando-se pela
+                      combinação de funcionalidade prática e design responsivo, alinhados ao objetivo de criar soluções
+                      úteis e aplicáveis ao mercado.
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Works Gallery Single Item End -->
+
+                <!-- Works Gallery Single Item Start -->
+                <!-- TRABALHE CONOSCO -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
+                  itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="#" data-image="./img/projetos/4.png" class="gallery__link" itemprop="contentUrl"
+                    data-size="100x100">
+                    <img src="./img/projetos/4.png" class="gallery__image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr" itemprop="caption description">
+                    <h5><a href="https://trabalheconosco.vercel.app/">link de acesso</a></h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/icon-html.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/css-3.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/javascript-1.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/jquery-4.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/git-icon.svg" alt="Tools Icon">
+
+
+                    </div>
+                    <p class="small">
+
+                      O trabalhe conosco é um protótipo de estudos criado para aprimorar habilidades técnicas, com
+                      potencial de se tornar um produto comercial.<br><br>
+                      Ele oferece um formulário de contato para barbearias, ajudando a gerenciar candidatos interessados
+                      em integrar suas equipes.<br><br>
+                      Desenvolvido com HTML, CSS, JavaScript, Bootstrap e Git, o projeto usa jQuery para validação e
+                      máscaras nos campos, além de EmailJS para enviar os dados diretamente ao e-mail do destinatário,
+                      unindo aprendizado e aplicação prática.
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Works Gallery Single Item End -->
+
+                <!-- Works Gallery Single Item Start -->
+                <!-- AGENDA DE CONTATO -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
+                  itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="./img/projetos/9.png" data-image="./img/projetos/9.png" class="gallery__link"
+                    itemprop="contentUrl" data-size="100x100">
+                    <img src="./img/projetos/9.png" class="gallery__image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr" itemprop="caption description">
+                    <h5><a href="https://agenda-de-contatos-eight-eta.vercel.app/">link de acesso</a></h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/icon-html.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/css-3.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/javascript-1.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/jquery-4.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/git-icon.svg" alt="Tools Icon">
+
+
+                    </div>
+                    <p class="small">
+
+                      Agenda de contato funcional que fiz atraves do curso engenheiro front end pela Ebac, o intuito do
+                      projeto é treinar logica de programaçao, pensamento estruturado, validações e mascaras de campo
+                      (projeto de treino,nao esta responsivo)
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Works Gallery Single Item End -->
+
+                <!-- Works Gallery Single Item Start -->
+                <!-- SORTEADOR  -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
+                  itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="./img/projetos/sorteador.png" data-image="./img/projetos/sorteador.png" class="gallery__link"
+                    itemprop="contentUrl" data-size="100x100">
+                    <img src="./img/projetos/sorteador.png" class="gallery__image" itemprop="thumbnail"
+                      alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr" itemprop="caption description">
+                    <h5><a href="https://sorteador-grunt-lemon.vercel.app/">link de acesso</a></h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/icon-html.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/css-3.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/javascript-1.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/grunt-1.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/git-icon.svg" alt="Tools Icon">
+
+
+                    </div>
+                    <p class="small">
+
+                      Este projeto foi desenvolvido com HTML, CSS, JavaScript e Grunt como parte de um estudo prático.
+                      Ele consiste em um sorteador de números funcional, implementado com JavaScript, que permite gerar
+                      resultados aleatórios de forma simples e intuitiva. <br><br>
+
+                      Para otimizar o fluxo de trabalho e aprimorar o desempenho, utilizei o Grunt para automatizar
+                      tarefas como a minificação do CSS, reduzindo o tamanho dos arquivos, e o versionamento, criando
+                      dois ambientes distintos: um para desenvolvimento, com arquivos legíveis, e outro para produção,
+                      com arquivos otimizados. Isso garantiu maior organização e eficiência na transição entre os
+                      ambientes
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Works Gallery Single Item End -->
+
+                <!-- Works Gallery Single Item Start -->
+                <!--  PURPLE -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
+                  itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="./img/projetos/6.png" data-image="./img/projetos/6.png" class="gallery__link"
+                    itemprop="contentUrl" data-size="100x100">
+                    <img src="./img/projetos/6.png" class="gallery__image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr" itemprop="caption description">
+                    <h5><a href="https://purple-seven.vercel.app/">link de acesso</a></h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/icon-html.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/css-3.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/javascript-1.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/git-icon.svg" alt="Tools Icon">
+
+
+                    </div>
+                    <p class="small">
+
+                      Projeto de estudos para treinar conhecimentos html,css
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Works Gallery Single Item End -->
+
+
+              </div>
+            </div>e git
+          </div>
+          <!-- Content Block - Works Gallery End -->
+
+
+          <!-- TERCEIRO BLOCO -->
+          <!-- Content Block - H2 Section Title Start -->
+          <div class="content__block section-grid-title">
+            <p class="h2__subtitle animate-in-up">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13"
+                fill="currentColor">
+                <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+            C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+            C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z" />
+              </svg>
+              <span>Portfolio</span>
+            </p>
+            <h2 class="h2__title animate-in-up">Landing pages em Greatpages</h2>
+          </div>
+          <!-- Content Block - H2 Section Title End -->
+
+          <!-- Content Block - Works Gallery Start -->
+          <div class="content__block grid-block">
+            <div class="container-fluid px-0 inner__gallery">
+              <div class="row gx-0 my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+                <!-- Works Gallery Single Item Start -->
+                <!-- SCHEIBEL -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
+                  itemscope itemtype="./img/greatpages/scheibel.png">
+                  <a href="./img/greatpages/scheibel.png" data-image="./img/greatpages/scheibel.png"
+                    class="gallery__link" itemprop="contentUrl" data-size="100x100">
+                    <img src="./img/greatpages/scheibel.png" class="gallery__image" itemprop="thumbnail"
+                      alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr" itemprop="caption description">
+                    <h5><a href="https://www.drguilhermescheibel.com.br/">link de acesso</a></h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/greatpages-1.svg" alt="Tools Icon">
+
+
+
+                    </div>
+                    <p class="small">Landing page desenvolvida para a area da saúde
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Works Gallery Single Item End -->
+
+                <!-- Works Gallery Single Item Start -->
+                <!-- FABIANA -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
+                  itemscope itemtype="./img/greatpages/fabiana.png">
+                  <a href="./img/greatpages/fabiana.png" data-image="./img/greatpages/fabiana.png" class="gallery__link"
+                    itemprop="contentUrl" data-size="100x100">
+                    <img src="./img/greatpages/fabiana.png" class="gallery__image" itemprop="thumbnail"
+                      alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr" itemprop="caption description">
+                    <h5><a href="https://www.doutorafabianavalera.com.br/">link de acesso</a></h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/greatpages-1.svg" alt="Tools Icon">
+
+
+                    </div>
+                    <p class="small">Landing page desenvolvida para a area da saúde
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Works Gallery Single Item End -->
+
+                <!-- Works Gallery Single Item Start -->
+                <!-- LOVATO -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
+                  itemscope itemtype="./img/greatpages/lovato.png">
+                  <a href="./img/greatpages/lovato.png" data-image="./img/greatpages/lovato.png" class="gallery__link"
+                    itemprop="contentUrl" data-size="100x100">
+                    <img src="./img/greatpages/lovato.png" class="gallery__image" itemprop="thumbnail"
+                      alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr" itemprop="caption description">
+                    <h5><a href="https://www.drguilhermelovato.com.br/">link de acesso</a></h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/greatpages-1.svg" alt="Tools Icon">
+
+
+                    </div>
+                    <p class="small">Landing page desenvolvida para a area da saúde
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Works Gallery Single Item End -->
+
+                <!-- Works Gallery Single Item Start -->
+                <!-- THALES -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
+                  itemscope itemtype="./img/greatpages/thales.png">
+                  <a href="./img/greatpages/thales.png" data-image="./img/greatpages/thales.png" class="gallery__link"
+                    itemprop="contentUrl" data-size="100x100">
+                    <img src="./img/greatpages/thales.png" class="gallery__image" itemprop="thumbnail"
+                      alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr" itemprop="caption description">
+                    <h5><a href="https://www.doutorthalescousen.com.br/">link de acesso</a></h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/greatpages-1.svg" alt="Tools Icon">
+
+
+                    </div>
+                    <p class="small">Landing page desenvolvida para a area da saúde
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Works Gallery Single Item End -->
+
+                <!-- Works Gallery Single Item Start -->
+                <!-- ANDERSON -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
+                  itemscope itemtype="./img/greatpages/thales.png">
+                  <a href="./img/greatpages/anderson.png" data-image="./img/greatpages/anderson.png"
+                    class="gallery__link" itemprop="contentUrl" data-size="100x100">
+                    <img src="./img/greatpages/anderson.png" class="gallery__image" itemprop="thumbnail"
+                      alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr" itemprop="caption description">
+                    <h5><a href="https://www.drandersondamasio.com.br/">link de acesso</a></h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/greatpages-1.svg" alt="Tools Icon">
+
+
+
+                    </div>
+                    <p class="small">Landing page desenvolvida para a area da saúde
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Works Gallery Single Item End -->
+
+                <!-- Works Gallery Single Item Start -->
+                <!-- SUNSET -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
+                  itemscope itemtype="./img/greatpages/sunset.png">
+                  <a href="./img/greatpages/sunset.png" data-image="./img/greatpages/sunset.png" class="gallery__link"
+                    itemprop="contentUrl" data-size="100x100">
+                    <img src="./img/greatpages/sunset.png" class="gallery__image" itemprop="thumbnail"
+                      alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr" itemprop="caption description">
+                    <h5><a href="https://clinicsunset.com.br/">link de acesso</a></h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/greatpages-1.svg" alt="Tools Icon">
+
+
+                    </div>
+                    <p class="small">Landing page desenvolvida para a area da saúde
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Works Gallery Single Item End -->
+
+                <!-- Works Gallery Single Item Start -->
+                <!-- ENDRYGO -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
+                  itemscope itemtype="./img/greatpages/endrygo-project.png">
+                  <a href="./img/greatpages/endrygo-project.png" data-image="./img/greatpages/endrygo-project.png"
+                    class="gallery__link" itemprop="contentUrl" data-size="100x100">
+                    <img src="./img/greatpages/endrygo-project.png" class="gallery__image" itemprop="thumbnail"
+                      alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr" itemprop="caption description">
+                    <h5><a href="https://www.drendrygomatos.com.br/">link de acesso</a></h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/greatpages-1.svg" alt="Tools Icon">
+
+
+                    </div>
+                    <p class="small">Landing page desenvolvida para a area da saúde
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Works Gallery Single Item End -->
+
+
+                <!-- Works Gallery Single Item Start -->
+                <!-- JOAO -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
+                  itemscope itemtype="./img/greatpages/joao.png">
+                  <a href="./img/greatpages/joao.png" data-image="./img/greatpages/joao.png" class="gallery__link"
+                    itemprop="contentUrl" data-size="100x100">
+                    <img src="./img/greatpages/joao.png" class="gallery__image" itemprop="thumbnail"
+                      alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr" itemprop="caption description">
+                    <h5><a href="https://www.joaomaximiliano.com.br/gluteos">link de acesso</a></h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/greatpages-1.svg" alt="Tools Icon">
+
+
+                    </div>
+                    <p class="small">Landing page desenvolvida para a area da saúde
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Works Gallery Single Item End -->
+
+
+
+
+
+              </div>
+            </div>
+          </div>
+          <!-- Content Block - Works Gallery End -->
+
+          <!-- TERCEIRO BLOCO -->
+          <!-- Content Block - H2 Section Title Start -->
+          <div class="content__block section-grid-title">
+            <p class="h2__subtitle animate-in-up">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13"
+                fill="currentColor">
+                <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+            C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+            C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z" />
+              </svg>
+              <span>Portfolio</span>
+            </p>
+            <h2 class="h2__title animate-in-up">Experiencia em campo</h2>
+          </div>
+          <!-- Content Block - H2 Section Title End -->
+
+          <!-- Content Block - Works Gallery Start -->
+          <div class="content__block grid-block">
+            <div class="container-fluid px-0 inner__gallery">
+              <div class="row gx-0 my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+                <!-- Works Gallery Single Item Start -->
+                <!-- Sunset -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
+                  itemscope itemtype="./img/greatpages/sunset-banco.png">
+                  <a href="./img/greatpages/sunset-banco.png" data-image="./img/greatpages/sunset-banco.png"
+                    class="gallery__link" itemprop="contentUrl" data-size="100x100">
+                    <img src="./img/greatpages/sunset-banco.png" class="gallery__image" itemprop="thumbnail"
+                      alt="Image description">
+                  </a>
+                  <figcaption class="gallery__descr" itemprop="caption description">
+                    <h5><a href="https://sunsetclinic.com.br/fale-com-a-gente.php">link de acesso</a></h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/icon-html.png" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/javascript-1.svg" alt="Tools Icon">
+                      <img class="tools-cards__icon animate-in-up" src="img/icons/mysql-ar21.svg" alt="Tools Icon">
+
+
+
+                    </div>
+                    <p class="small">Atuei neste projeto criando novos inputs e conexões para o formulário e
+                      banco de dados
+                      mysql
+                    </p>
+                  </figcaption>
+                </figure>
+                <!-- Works Gallery Single Item End -->
+
+
+              </div>
+            </div>
+            <!-- Content Block - Works Gallery End -->
+
+
+
+        </section>
+        <!-- Portfolio Section End -->
+
+
+
+
+
+
+
+
+
+        <!-- Content Block - Contact Data Start -->
+        <div class="content__block">
+          <div class="container-fluid p-0 contact-lines animate-in-up">
+            <div class="row g-0 contact-lines__item">
+              <!-- data item -->
+              <div class="col-12 col-md-4 contact-lines__data">
+                <p class="contact-lines__title animate-in-up">Localidade</p>
+                <p class="contact-lines__text animate-in-up">
+                  <a class="text-link-bold" href="#" target="_blank">
+                    São paulo</a>
+                </p>
+              </div>
+              <!-- data item -->
+              <div class="col-12 col-md-4 contact-lines__data">
+                <p class="contact-lines__title animate-in-up">Telefone</p>
+                <p class="contact-lines__text animate-in-up">
+                  <a class="text-link-bold"
+                    href="https://wa.me/5511934916375?text=ol%C3%A1%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar.%20">11
+                    934916375</a>
+                </p>
+              </div>
+              <!-- data item -->
+              <div class="col-12 col-md-4 contact-lines__data">
+                <p class="contact-lines__title animate-in-up">Email</p>
+                <p class="contact-lines__text animate-in-up">
+                  <a class="text-link-bold"
+                    href="mailto:vinicius.natan.dev@gmail.com?subject=Message%20from%20your%20site">vinicius.natan.dev@gmail.com</a>
+                </p>
               </div>
             </div>
           </div>
         </div>
+        <!-- Content Block - Contact Data End -->
+
+      </section>
+      <!-- Contact Section End -->
+
+    </div>
+  </div>
+  <!-- Page Content End -->
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+      It's a separate element, as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+      <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
       </div>
-      <!-- Live Preview Links End -->
 
-    </main>
-    <!-- Demo Content End -->
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
 
-    <!-- Footer Start -->
-    <footer class="demo__footer">
-      <div class="footer__content">
-        <div class="container-fluid p-0">
-          <div class="row g-0">
+        <div class="pswp__top-bar">
 
-            <div class="col-12">
-              <div class="footer__footercta d-flex flex-column">
-                <div class="footercta__logo d-flex justify-content-center animate-in-up">
-                  <a href="#0" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                      width="85px" height="85px" viewBox="0 0 85 85" 
-                      style="enable-background:new 0 0 85 85;" xml:space="preserve" class="gradient-fill">
-                      <style type="text/css">
-                        .gradient-fill {
-                          fill: url(#gradientFillFooter);
-                        }
-                      </style>
-                      <g>
-                        <linearGradient id="gradientFillFooter" gradientUnits="userSpaceOnUse" x1="9.9604" y1="75.0338" x2="75.0387" y2="9.9555">
-                          <stop  offset="0" style="stop-color:var(--accent)"/>
-                          <stop  offset="1" style="stop-color:var(--secondary)"/>
-                        </linearGradient>
-                        <path class="gradient-fill" d="M51,0H34C15.2,0,0,15.2,0,34v17c0,14.3,8.9,26.6,21.4,31.6c0,0,0,0,0,0l0,0C25.3,84.1,29.5,85,34,85h17
-                          c6,0,11.7-1.6,16.6-4.3c0.1-0.1,0.2-0.1,0.3-0.2C78.1,74.6,85,63.6,85,51V34C85,15.2,69.8,0,51,0z M83,51c0,10.7-5.3,20.2-13.4,26
-                          v-2.5v-3.9h3.9v-3.9h-3.9v-3.9h3.9v-3.9h-3.9H67v-3.9V51h-3.9v3.9v3.9h2.6v3.9v3.9v3.9h-3.9h-3.9v3.9h3.9h3.9v3.9v1
-                          C61.3,81.7,56.3,83,51,83H34c-4.5,0-8.7-0.9-12.6-2.6v-2v-3.9h3.9h3.9v-3.9h-3.9h-3.9v-3.9v-3.9v-3.9H24v-3.9V51h-3.9v3.9v3.9h-2.6
-                          h-3.9v3.9h3.9v3.9h-3.9v3.9h3.9v3.9v3.9C8.2,72.8,2,62.6,2,51V34C2,16.4,16.4,2,34,2h17c17.6,0,32,14.4,32,32V51z M50.1,54.9H54
-                          v3.9v3.9h-3.9v-3.9V54.9z M33.1,54.9H37v3.9v3.9h-3.9v-3.9V54.9z M27.9,51H24v-3.9v-3.9v-3.9h3.9v3.9v3.9V51z M31.8,39.3h-3.9v-3.9
-                          h3.9V39.3z M31.8,43.2v-3.9h3.9v3.9H31.8z M63.1,47.1V51h-3.9v-3.9v-3.9v-3.9h3.9v3.9V47.1z M35.7,47.1v-3.9h3.9h3.9h3.9h3.9v3.9
-                          h-3.9h-3.9h-3.9H35.7z M59.2,39.3h-3.9v-3.9h3.9V39.3z M55.3,43.2h-3.9v-3.9h3.9V43.2z"/>
-                      </g>
-                    </svg>
-                  </a>
-                </div>
-                <div class="footercta__caption d-flex justify-content-center animate-in-up">
-                  <p>Show yourself brightly with Braxton - unique and creative portfolio and resume template!</p>
-                </div>
-                <div class="footercta__cta animate-in-up">
-                  <a class="btn btn-default btn-hover btn-hover-accent" href="#0" target="_blank"><!-- template link here -->
-                    <span class="btn__caption">Purchase Now</span>
-                    <i class="ph-bold ph-shopping-cart"></i>
-                  </a>
-                </div>
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close link-s" title="Close (Esc)"></button>
+
+          <button class="pswp__button pswp__button--share link-s" title="Share"></button>
+
+          <button class="pswp__button pswp__button--fs link-s" title="Toggle fullscreen"></button>
+
+          <button class="pswp__button pswp__button--zoom link-s" title="Zoom in/out"></button>
+
+          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader-active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
               </div>
             </div>
-
-            <div class="col-12">
-              <div class="footer__links d-flex flex-column flex-lg-row justify-content-lg-between">
-
-                <p class="additional-text">Let's talk on
-                  <a class="text-link-bold" href="mailto:support@mixdesign.club?subject=Message%20from%20template%20demo">support@mixdesign.club</a>
-                </p>
-
-                <p class="additional-text">Made with
-                  <i class="ph ph-heart"></i>
-                   by
-                  <a class="text-link-bold" href="https://1.envato.market/EKA9WD" target="_blank">mix_design</a>
-                </p>
-
-              </div>
-            </div>
-
           </div>
         </div>
-      </div>
-    </footer>
-    <!-- Footer End -->
 
-    <!-- To Top Button Start -->
-    <a href="#0" id="to-top" class="to-top btn btn-square btn-hover btn-hover-outline">
-      <i class="ph-bold ph-arrow-up"></i>
-    </a>
-    <!-- To Top Button End -->
- 
-    <!-- Load Scripts Start -->
-    <script src="js/demo/libsdemo.min.js"></script>
-    <script src="js/demo/demo.js"></script>
-    <!-- Load Scripts End -->
-    
-  </body>
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left link-s" title="Previous (arrow left)"></button>
+
+        <button class="pswp__button pswp__button--arrow--right link-s" title="Next (arrow right)"></button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Load Scripts Start -->
+  <script src="js/libs.min.js"></script>
+  <script>
+    const randomX = random(-400, 400);
+    const randomY = random(-200, 200);
+    const randomDelay = random(0, 50);
+    const randomTime = random(20, 40);
+    const randomTime2 = random(5, 12);
+    const randomAngle = random(-30, 150);
+
+    const blurs = gsap.utils.toArray(".blur");
+    blurs.forEach((blur) => {
+      gsap.set(blur, {
+        x: randomX(-1),
+        y: randomX(1),
+        rotation: randomAngle(-1)
+      });
+
+      moveX(blur, 1);
+      moveY(blur, -1);
+      rotate(blur, 1);
+    });
+
+    function rotate(target, direction) {
+      gsap.to(target, randomTime2(), {
+        rotation: randomAngle(direction),
+        ease: Sine.easeInOut,
+        onComplete: rotate,
+        onCompleteParams: [target, direction * -1]
+      });
+    }
+
+    function moveX(target, direction) {
+      gsap.to(target, randomTime(), {
+        x: randomX(direction),
+        ease: Sine.easeInOut,
+        onComplete: moveX,
+        onCompleteParams: [target, direction * -1]
+      });
+    }
+
+    function moveY(target, direction) {
+      gsap.to(target, randomTime(), {
+        y: randomY(direction),
+        ease: Sine.easeInOut,
+        onComplete: moveY,
+        onCompleteParams: [target, direction * -1]
+      });
+    }
+
+    function random(min, max) {
+      const delta = max - min;
+      return (direction = 1) => (min + delta * Math.random()) * direction;
+    }
+  </script>
+  <script src="js/app.js"></script>
+  <script src="js/gallery-init.js"></script>
+  <!-- Load Scripts End -->
+
+</body>
 
 </html>
