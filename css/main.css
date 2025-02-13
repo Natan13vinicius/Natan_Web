@@ -413,11 +413,11 @@ img {
 
 .blur {
   position: absolute;
-  z-index: 1;
-  -moz-border-radius: 900px;
+  z-index: -5;
+  -moz-border-radius: 9000px;
   border-radius: 900px;
-  -webkit-filter: blur(clamp(40px, 7vw, 90px));
-  filter: blur(clamp(40px, 7vw, 90px));
+  /* -webkit-filter: blur(clamp(4px, 7vw, 90px)); */
+  filter: blur(clamp(2px, 15vw, 900px));
 }
 .blur:nth-of-type(1) {
   background: var(--gradient-one);
